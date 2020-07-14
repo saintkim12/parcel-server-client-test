@@ -1,0 +1,22 @@
+{
+  "name": "webdocs",
+  "version": "0.0.1",
+  "description": "webdocs",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon dist/index",
+    "watch": "parcel watch --target=node ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saintkim12",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "parcel-bundler": "^1.12.4"
+  }
+}
